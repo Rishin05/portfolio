@@ -23,7 +23,7 @@ import { motion } from "framer-motion";
 
 const portfolioProjects = [
     {
-        company: "Smoov",
+        company: "October",
         year: "2024",
         title: "Sage AI - ChatGPT Clone",
         results: [
@@ -68,7 +68,7 @@ const portfolioProjects = [
         ],
     },
     {
-        company: "Logic Play Web Solution",
+        company: "September",
         year: "2024",
         title: "QR Code Generator",
         results: [
@@ -104,7 +104,7 @@ const portfolioProjects = [
         ],
     },
     {
-        company: "Logic Play Web Solution",
+        company: "August",
         year: "2024",
         title: "Atmosphere Alert",
         results: [
