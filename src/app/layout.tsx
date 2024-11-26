@@ -4,6 +4,7 @@ import '../../public/fonts/Archivo/Fonts/WEB/css/archivo.css'
 import '../../public/fonts/ClashDisplay/Fonts/WEB/css/clash-display.css'
 import { twMerge } from "tailwind-merge";
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 
@@ -27,6 +28,7 @@ export default function RootLayout({
             >
                 {children}
                 <Analytics />
+                <SpeedInsights />
             </body>
         </html>
     );
