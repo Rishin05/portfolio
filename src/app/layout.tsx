@@ -3,7 +3,7 @@ import "./globals.css";
 import '../../public/fonts/Archivo/Fonts/WEB/css/archivo.css'
 import '../../public/fonts/ClashDisplay/Fonts/WEB/css/clash-display.css'
 import { twMerge } from "tailwind-merge";
-
+import { Analytics } from '@vercel/analytics/next';
 
 
 
@@ -26,6 +26,7 @@ export default function RootLayout({
                 className={twMerge("font-sans", "font-serif","antialiased bg-custom-dark text-white font-sans")}
             >
                 {children}
+                <Analytics />
             </body>
         </html>
     );
