@@ -3,6 +3,7 @@
 import sageAiImage from "@/assets/images/SAGE-AI.png";
 import qrCodeGeneratorImage from "@/assets/images/qr-code-generator-page.png";
 import atmosphereAlertImage from "@/assets/images/atmosphere-image.png";
+import sproutImage from "@/assets/images/sprout-image.png";
 import Image from "next/image";
 import { CheckCircleIcon } from "@heroicons/react/16/solid";
 import { ArrowUpRightIcon } from "@heroicons/react/16/solid";
@@ -17,11 +18,52 @@ import mongoLogo from "@/assets/images/mongodb.svg";
 import geminiLogo from "@/assets/images/googlegemini.svg";
 import nextLogo from "@/assets/images/nextdotjs.svg";
 import weatherLogo from "@/assets/images/theweatherchannel.svg";
+import firebaseLogo from '@/assets/images/firebase.svg';
+import googleCloudLogo from '@/assets/images/googlecloud.svg';
 import IntegrationColumn from "@/components/integrationColumn";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const portfolioProjects = [
+    {
+        company: "Hackville",
+        year: "2025",
+        title: "Sprout",
+        results: [
+            { title: "Fostered meaningful connections among students" },
+            { title: "Enhanced peer-to-peer learning experience" },
+            { title: "Won Best Use of Google Cloud - GDG" },
+        ],
+        link: "https://www.sprount.tech/",
+        image: sproutImage,
+        "integrations": [
+        {
+            "name": "Next.js",
+            "icon": nextLogo,
+            "description": "Framework for building responsive web applications."
+        },
+        {
+            "name": "Firebase",
+            "icon": firebaseLogo,
+            "description": "Backend-as-a-Service for real-time database and authentication."
+        },
+        {
+            "name": "Google Cloud",
+            "icon": googleCloudLogo,
+            "description": "Cloud platform for scalable and reliable backend services."
+        },
+        {
+            "name": "GitHub",
+            "icon": githubLogo,
+            "description": "Version control and code collaboration platform."
+        },
+        {
+            name: "Vercel",
+            icon: vercelLogo,
+            description: "Platform for deploying frontend applications.",
+        },
+    ],
+    },
     {
         company: "October",
         year: "2024",
