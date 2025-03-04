@@ -52,8 +52,8 @@ export const Header = () => {
                     About
                 </motion.a>
                 <motion.a
-                    href="#contact"
-                    className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"
+                     href="#contact"
+                    className="nav-item"
                     onClick={(e) => {
                         e.preventDefault();
                         handleScrollTo("contact");
@@ -62,6 +62,16 @@ export const Header = () => {
                     whileTap={{ scale: 0.95 }}
                 >
                     Contact
+                </motion.a>
+                <motion.a
+                    href="https://drive.google.com/file/d/1oq0pf5qnjTH1ohSjHG19qnW_uDTl6g19/view?usp=drive_link"
+                    className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.95 }}
+                >
+                    Resume
                 </motion.a>
             </nav>
         </div>
